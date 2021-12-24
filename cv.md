@@ -17,3 +17,7 @@ Motivated, team player
 # Experience
 (ProjectAbito)[https://github.com/Vladimir-cloudj/Abito-Glo-academy]<br>
 (ProjectLomoda)[https://github.com/Vladimir-cloudj/testProjectLomoda]<br>
+# Education
+Astrahan State University<br> 
+specialty: information technologies
+# English
