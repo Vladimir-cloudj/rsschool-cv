@@ -125,3 +125,26 @@ section{
 .education_items p{
 	margin-bottom: 30px;
 }
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;    
+	background-color: #383938;
+}
+footer .footer-container{
+	flex: 0 1 25%;
+}
+footer a{
+	color: #ccc; 
+} 
+footer a img{
+	max-height: 50px;
+}
+footer a img:last-child{
+	height: 50px;
+}
+footer .footer-container p{
+	text-align: center;
+	color: #ccc;
+}
