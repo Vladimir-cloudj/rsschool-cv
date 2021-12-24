@@ -21,3 +21,4 @@ Motivated, team player
 Astrahan State University<br> 
 specialty: information technologies
 # English
+A2+
