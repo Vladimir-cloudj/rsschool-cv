@@ -82,3 +82,66 @@ section{
 	position: relative;
 	padding: 20px 0;
 }
+.section_title{
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #333;
+}
+.about_text{
+	margin-top: 45px;    
+}
+.about_text p{
+	font-size: 18px;
+	margin-bottom: 25px;    
+}
+.about_text p a img{
+	width: 40px;
+	height: 40px;
+}
+.skills .skills_text li{
+	margin-bottom: 25px; 
+	letter-spacing: 2px;
+}
+.experience_items{
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #333;
+}
+.container .section_title{
+	margin-bottom: 25px; 
+}
+.experience_items .item{
+	font-size: 18px;
+	margin-bottom: 25px;    
+}
+.education_items h3{
+	color: #383938;
+	margin-bottom: 30px;
+}
+.education_items p{
+	margin-bottom: 30px;
+}
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;    
+	background-color: #383938;
+}
+footer .footer-container{
+	flex: 0 1 25%;
+}
+footer a{
+	color: #ccc; 
+} 
+footer a img{
+	max-height: 50px;
+}
+footer a img:last-child{
+	height: 50px;
+}
+footer .footer-container p{
+	text-align: center;
+	color: #ccc;
+}
