@@ -6,7 +6,7 @@
 body{
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	text-align: center;
+	/* text-align: center; */
 }
 .container{
 	max-width: 1200px;
@@ -142,6 +142,6 @@ footer a img:last-child{
 	height: 50px;
 }
 footer .footer-container p{
-	text-align: center;
+	/* text-align: center; */
 	color: #ccc;
 }
