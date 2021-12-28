@@ -20,3 +20,65 @@ header{
 	background-color: #383938;
 	z-index: 100;    
 }
+
+.head_inner{    
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.head_inner .name{    
+	color: #ccc
+}
+.head_inner nav ul{
+	margin: 0;
+	padding: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -flex;
+	align-items: center;
+}
+.head_inner nav ul li{
+	list-style-type: none;    
+}
+.head_inner nav ul li a{
+	font-style: 14px;
+	color: #ccc;
+	display: inline-block;
+	padding: 20px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.head_inner nav ul li a:hover{
+	color: #f83b3a;
+}
+
+.header_body_inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;    
+}
+.header_body_inner .left .title{
+	color: #333;
+	font-size: 46px;
+	transition: all .5s ease;
+} 
+.header_body_inner .left .title span{
+	color: #f83b3a;
+}
+.header_body_inner .right img{
+	border-radius: 50%;
+}
+.contacts{
+	margin-top: 60px;
+}
+section{
+	position: relative;
+	padding: 20px 0;
+}
