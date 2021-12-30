@@ -76,6 +76,7 @@ header{
 	border-radius: 50%;
 }
 .contacts{
+	/* display: flex; */
 	margin-top: 60px;
 }
 section{
@@ -89,13 +90,21 @@ section{
 	color: #333;
 }
 .about_text{
-	margin-top: 45px;    
+	/* display: flex; */
+	list-style-type: none;
+	margin-top: 45px;
+	    
 }
-.about_text p{
+.about_text li{
 	font-size: 18px;
-	margin-bottom: 25px;    
+	margin-right: 25px;
+	   
 }
-.about_text p a img{
+.about_text li a{
+	text-decoration: none;
+}
+
+.about_text li a img{
 	width: 40px;
 	height: 40px;
 }
@@ -103,6 +112,36 @@ section{
 	margin-bottom: 25px; 
 	letter-spacing: 2px;
 }
+
+.code_items .item{
+	/* width: 400px; */
+	/* display: flex; */
+	/* justify-content: space-between; */
+	/* align-items: left; */
+}
+.code_items .item pre{
+	
+	/* text-align: left; */
+	/* margin-left: ; */
+	/* margin-bottom: 30px; */
+
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 12px;
+	line-height: 20px;
+	background: #efefef;
+	border: 1px solid #777;
+
+}
+.code_items .item pre code{
+	font-size: 16px;
+	padding: 10px;
+	color: #333;
+}
+
 .experience_items{
 	font-size: 36px;
 	font-weight: bold;

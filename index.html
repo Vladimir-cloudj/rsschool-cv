@@ -25,7 +25,7 @@
 											 <li><a href="#contacts">contacts</a></li>
 											 <li><a href="#summary">summary</a></li>
 											 <li><a href="#skills">skills</a></li>
-											 <li><a href="#skills">example code</a></li>
+											 <li><a href="#skills">code</a></li>
 											 <li><a href="#experience">experience</a></li>
 											 <li><a href="#education">education</a></li>
 											 <li><a href="#english">english</a></li>                          
@@ -40,9 +40,9 @@
 	<div class="container">
 			<div class="header_body_inner">
 					<div class="left">
-						 <div class="title">
+						 <h1 class="title">
 								 Hi, i am Vladimir and i study to<br> <span>javascript-developer</span>
-						 </div> 
+						 </h1> 
 						 
 					</div>
 					<div class="right">
@@ -54,11 +54,11 @@
 		<div class="section_title">
 				<h2 class="">Contacts</h2>
 		</div>
-		<div class="about_text">
-				<p><a href="mailto:wizart88@gmail.com"> Email:  wizart88@gmail.com</a></p>
-				<p><a href="https://vk.com/id669798806"><img src="img/vk.png" alt="vkontakte"></a></p>
-				<p><a href="Vlad_1i"><img src="img/telegram.png" alt="telegram"></a></p>                               
-		</div>
+		<ul class="about_text">
+				<li><a href="mailto:wizart88@gmail.com"> Email:  wizart88@gmail.com</a></li>
+				<li><a href="https://vk.com/id669798806"><img src="img/vk.png" alt="vkontakte"></a></li>
+				<li><a href="Vlad_1i"><img src="img/telegram.png" alt="telegram"></a></li>                               
+		</ul>
 </div>
 </section>
 
@@ -68,7 +68,7 @@
 					<h2 class="">Summary</h2>
 			</div>
 			<div class="about_text">
-					<p>I work as a system administrator in a rural area.  Work, part-time jobs, household chores, car: take a lot of time. Look at it, I allocate time for my dream. </p>
+					<p>I work as a system administrator in a rural area.  I live in a small village. Work, part-time jobs, household chores, car: take a lot of time. Look at it, I allocate time for my dream. </p>
 					<p>I want to study to be a programmer. </p>
 					<p>Motivated, team player</p>
 			</div>
@@ -94,18 +94,22 @@
 	</div>
 </section>
 
-	<section class="example_code" id="code">
+	<section class="code" id="code">
 		<div class="container">
 			<div class="section_title">
-				<h2 class="">Example code</h2>
+				<h2 class="">Code</h2>
 			</div>
 			<div class="code_items">
 				<div class="item">
-					<code>
-						if (i < 10) { 
-							return "i less than 10";
+					<pre>
+					<code class="code">
+						function multiplyAll(array) {
+							return function arr(number) {
+								return array.map(x=>x*number)
+							}
 						} return "i more than 10";
 					</code>
+					</pre>
 				</div>
 			</div>
 		</div>
@@ -118,7 +122,7 @@
 			</div>
 			<div class="experience_items">
 					<div class="item">
-							<a href="https://github.com/Vladimir-cloudj/Abito-Glo-academy" class="item">Abito</a>
+							<a href="https://vladimir-cloudj.github.io/Abito-Glo-academy/" class="item">Abito</a>
 					</div>
 					<div class="item">
 							<a href="https://github.com/Vladimir-cloudj/testProjectLomoda" class="item">Lomoda</a>
@@ -152,14 +156,14 @@
 					<h2 class="">English</h2>
 			</div>
 			<div class="english-container">            
-					<p class="block-item">Pre-intermediate - A2 </p>
+					<p class="block-item">Pre-intermediate A2+ </p>
 			</div>
 	</div>	
 </section>
 
 <footer class="footer">
 	<div class="footer-container">
-			<p class="footer-item">Volgograd 2021</p>
+			<p class="footer-item">Cherni Yar 2021</p>
 	</div>
 
 			<a href="https://github.com/Vladimir-cloudj" class="link"> <img src="img/github.png" alt="My github"> </a>
